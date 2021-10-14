@@ -1,0 +1,77 @@
+.escolaDev {
+    background-color: $primery;
+    color: #fff;
+}
+
+.bg-binario {
+    background-image: url(/img/binnary-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto-verde {
+    color: $third;
+}
+
+.conteudo {
+    padding: 90px 0 0 0;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .title {
+        font-size: 2em;
+        font-weight: 600;
+        text-align: center;
+    }
+    & .subtitle {
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+    & .video {
+        margin: 20px;
+        width: 650px;
+        height: 400px;
+    }
+    & .button {
+        margin: 10px;
+        background-color: $third;
+        border-radius: 5px;
+        box-shadow:  2px 2px 15px $third;
+    }
+}
+
+.conteudo2 {
+    background-color: $primery;
+    width: 70%;
+    margin: 40px auto 0 auto;
+    padding: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .text {
+        font-size: 1.3em;
+        margin: 10px auto;
+    }
+    & .bg-white {
+        padding: 0 3px;
+        background-color: #fff;
+        color: $primery;
+    }
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    & .divisao {
+        height: 1px;
+        width: 300px;
+        margin: 0 15px;
+        border: solid 1px #bdbdbd75;
+    }
+}

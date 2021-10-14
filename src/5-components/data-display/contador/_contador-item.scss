@@ -1,0 +1,22 @@
+.contador-item {
+    background-color: $fourth;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    & p, h2 {
+        margin: 0;
+    }
+    & h2 {
+        font-size: 3.0em;
+        font-family: 'Russo One', sans-serif;
+    }
+    & p {
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}

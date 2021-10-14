@@ -1,0 +1,9 @@
+.brindes-area {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template:  1fr 1fr / 1fr 1fr;
+    gap: 30px;
+
+}

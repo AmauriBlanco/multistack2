@@ -1,0 +1,29 @@
+.brindes-itens {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    color: $primery;
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    & p {
+        width: 90%;
+        color: $fourth;
+    }
+    & h3 {
+        width: 80%;
+        font-weight: 400;
+    }
+}
+.camisa {
+    padding: 20px 20px 0 20px;
+    & img {
+        position: relative;
+        bottom: -20px;
+        
+
+    }
+}

@@ -1,0 +1,28 @@
+.preco {
+    margin: 50px auto;
+    width: 500px;
+    height: 150px;
+    padding: 30px 0;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    & .de {
+        font-size: 1.3em;
+        text-decoration: line-through #ff0000;
+    }
+    & .por {
+        color: $primery;
+        font-size: 1.8em;
+        margin: 10px 0 0 0;
+    }
+    & .pagamentos {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+}

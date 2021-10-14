@@ -1,0 +1,9 @@
+.brindes {
+    background-color: $bg-grey;
+    & .title {
+        padding: 50px 0;
+        text-align: center;
+        color: $fourth;
+        font-weight: 400;
+    }
+}

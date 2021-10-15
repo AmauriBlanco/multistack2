@@ -1,0 +1,20 @@
+.assine {
+    padding: 80px 0;
+    background: linear-gradient(#3b42c0ce,#3b42c0ce ),url(/img/image7.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+    & h3 {
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+    & .button {
+        margin: 20px 0;
+    }
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,52 @@
+.alunos {
+    background-color: $bg-grey;
+    color: $fourth;
+    padding: 70px 0;
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    & h2 {
+        width: 850px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.8em;
+    }
+    .video {
+        margin: 0 0 50px 0;
+        width: 800px;
+        height: 450px;
+    }
+}
+
+.aspas-g {
+    position: relative;
+    right: 410px;
+    top: 40px;
+}
+
+.aspas-pq {
+    position: relative;
+    left: 540px;
+    top: -30px;
+}
+
+.action-area {
+    display: flex;
+}
+
+.action {
+
+    display: block;
+    margin: 0 10px;
+    height: 5px;
+    width: 30px;
+    background-color: #838181be;
+}
+
+.action:hover {
+    transition-delay: 0.2s;
+    background-color: $secundary;
+}

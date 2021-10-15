@@ -1,0 +1,18 @@
+.oferta {
+    padding: 80px 0;
+    background: linear-gradient(#353d4ec4,#353d4ec4 ),url(/img/image10.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.bg-blue {
+    background-color: $primery;
+    padding: 2px 5px;
+}

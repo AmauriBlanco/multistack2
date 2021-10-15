@@ -1,0 +1,23 @@
+.planejamento {
+    padding: 50px 0 100px 0;
+    background-color: $bg-grey;
+    & .title {
+        margin: 0 auto;
+        width: 500px;
+        color: $fourth;
+        text-align: center;
+        font-weight: 400;
+        font-size: 2em;
+    }
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    margin: auto 15px auto 0;
+    & img {
+        z-index: 2;
+        position: relative;
+        left: -20px;
+    }
+}

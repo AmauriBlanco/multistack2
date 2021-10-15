@@ -1,14 +1,16 @@
 .brindes-itens {
+    max-width: 520px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     background-color: #fff;
     color: $primery;
     border: none;
     border-radius: 3px;
     text-align: left;
+    box-shadow: 1px 1px 5px rgba(85, 84, 84, 0.253);
     & p {
         width: 90%;
         color: $fourth;
@@ -20,10 +22,4 @@
 }
 .camisa {
     padding: 20px 20px 0 20px;
-    & img {
-        position: relative;
-        bottom: -20px;
-        
-
-    }
 }

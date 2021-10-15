@@ -1,0 +1,10 @@
+.bonus {
+    padding: 50px 0;
+    color: $primery;
+    & .title {
+        margin: 5px 0;
+        text-align: center;
+        color: $fourth;
+        font-weight: 400;
+    }
+}

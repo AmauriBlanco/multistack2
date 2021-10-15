@@ -1,0 +1,37 @@
+.garantia {
+    background-color: $primery;
+    padding: 70px 0;
+    color: #fff;
+    & .div {
+        margin: 100px 0;
+    }
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.garantia-incondicional {
+    display: grid;
+    grid-template-columns: 550px 400px;
+    place-items: center;
+    gap: 100px;
+    
+}
+
+.garantia-texto {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.garantia-duvidas {
+    text-align: center;
+    & h3 {
+        font-size: 1.5em;
+    }
+    & h4 {
+        font-weight: 300;
+    }
+}

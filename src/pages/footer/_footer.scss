@@ -1,0 +1,31 @@
+.footer {
+    background-color: $primery;
+    padding: 70px 0;
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        gap: 20px;
+        & hr {
+            width: 100%;
+        }
+        & p {
+            width: 70%;
+            font-weight: 400;
+        }
+    }
+}
+
+.media-icons {
+    display: flex;
+    align-items: center;
+    & span {
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 50%;
+        border: solid 3px #fff;
+    }
+}

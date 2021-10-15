@@ -1,0 +1,24 @@
+.virtual {
+    background-color: $primery;
+    text-align: center;
+    & .bg-binario {
+        padding: 100px 0;
+        background-position: bottom ;
+    }
+    & h2 {
+        color: $third;
+        font-size: 2em;
+    }
+    & h3 {
+        width: 800px;
+        margin: 0 auto;
+        color: #fff;
+        font-weight: 300;
+        font-size: 1.8em;
+    }
+    & .video {
+        margin: 50px auto;
+        width: 800px;
+        height: 450px;
+    }
+}

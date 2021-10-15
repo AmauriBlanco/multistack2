@@ -528,13 +528,51 @@
             <h3>Tem alguma dúvida?</h3>
             <h4>Separamos as perguntas que recebemos com maior frequência.</h4>
           </div>
-
-
-
-
-
-
-
+            <div class="menu-sanfona">
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>01.</strong>Quanto tempo dura o acesso?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>02.</strong>Preciso ter conhecimento na área para começar?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>03.</strong>Se eu já for um profissional experiente e/ou atuante, mesmo assim a AvMaker pode me ajudar?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>04.</strong>Consigo acessar o conteúdo estando offline?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>05.</strong>Quais as opções de pagamento?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>06.</strong>Se eu quiser cancelar, como devo proceder?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum..</p>
+                </div>
+              </div>  
+              <div class="safona-item">
+                <button class="sanfona"><p><strong>07.</strong>Como a AvMakers pode me ajudar a ingressar no mercado de trabalho?</p><img src="img/plus.svg" alt=""></button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.</p>
+                </div>
+              </div>  
+              
+            </div>
         </div>
       </section>
       <section class="assine">
@@ -613,5 +651,27 @@
       </div>
 
     </footer>
+    <script>
+      var acc = document.getElementsByClassName("sanfona");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.height === "80px") {
+            panel.style.height = "0";
+          } else {
+            panel.style.height = "80px";
+          }
+        });
+      } 
+    </script>
    </body>
+  </style>
+ 
 </html>

@@ -1,0 +1,23 @@
+@media (max-width: 1140px) {
+    .escolaDev {
+        & .title {
+            width: 100%;
+        }
+    }
+    
+    .brindes-itens {
+        max-width: 100%;
+        width: 100%;
+        height: 175px;
+    }
+    .aspas-pq {
+        left: 450px;
+    }
+    
+    .atendimento-area {
+        gap: 20px;
+    }
+    .atendimento-item {
+        padding: 40px 35px;
+    }
+}

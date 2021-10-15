@@ -15,6 +15,7 @@ body, h1, h3 {
   border: none;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .button-verde {
@@ -279,7 +280,6 @@ body, h1, h3 {
 
 .conteudo {
   padding: 90px 0 0 0;
-  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -299,6 +299,9 @@ body, h1, h3 {
   margin: 20px;
   width: 650px;
   height: 400px;
+}
+.conteudo h1 {
+  width: 60%;
 }
 
 .conteudo2 {
@@ -322,6 +325,7 @@ body, h1, h3 {
 }
 
 .div {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +333,7 @@ body, h1, h3 {
 }
 .div .divisao {
   height: 1px;
-  width: 300px;
+  width: 80%;
   margin: 0 15px;
   border: solid 1px #bdbdbd75;
 }
@@ -645,7 +649,63 @@ body, h1, h3 {
   font-size: 1.5em;
 }
 .garantia-duvidas h4 {
+  font-size: 1.2em;
   font-weight: 300;
+}
+
+.menu-sanfona {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.safona-item {
+  margin: 10px 0;
+}
+
+.sanfona {
+  background-color: #444AC7;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 20px;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+}
+.sanfona strong {
+  margin-right: 10px;
+}
+.sanfona p {
+  font-weight: 300;
+}
+
+.active, .sanfona:hover {
+  background-color: #444bc78a;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  margin: 0 auto;
+  height: 0;
+  width: 80%;
+  background-color: #3C41AE;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  border-radius: 0 0 10px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.panel p {
+  padding: 20px 25px;
+  margin: 0;
+  color: #fff;
+  font-size: 1em;
 }
 
 .assine {
@@ -752,5 +812,267 @@ body, h1, h3 {
   padding: 10px;
   margin: 0 10px;
   border-radius: 50%;
-  border: solid 3px #fff;
+  border: solid 2px #fff;
+  cursor: pointer;
+}
+.media-icons span img {
+  width: 30px;
+}
+
+@media (max-width: 1140px) {
+  .escolaDev .title {
+    width: 100%;
+  }
+
+  .brindes-itens {
+    max-width: 100%;
+    width: 100%;
+    height: 175px;
+  }
+
+  .aspas-pq {
+    left: 450px;
+  }
+
+  .atendimento-area {
+    gap: 20px;
+  }
+
+  .atendimento-item {
+    padding: 40px 35px;
+  }
+}
+@media (max-width: 960px) {
+  .brindes .title {
+    padding: 50px 0 20px 0;
+  }
+
+  .planejamento-area {
+    padding: 20px 0;
+    gap: 10px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .roxo {
+    padding: 150px 0;
+  }
+
+  .virtual .bg-binario {
+    padding: 50px 0 100px 0;
+    width: 100%;
+  }
+
+  .especialista {
+    padding: 50px 0 0 0;
+  }
+
+  .professor {
+    width: 100%;
+  }
+
+  .aspas-pq {
+    left: 400px;
+  }
+
+  .garantia .div {
+    margin: 50px 0;
+  }
+
+  .garantia-incondicional {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .sanfona {
+    width: 100%;
+  }
+
+  .atendimento-item {
+    width: auto;
+  }
+}
+@media (max-width: 720px) {
+  .conteudo2 h3 {
+    text-align: center;
+  }
+
+  .banner img {
+    display: none;
+  }
+
+  .banner-text {
+    width: 90%;
+  }
+
+  .planejamento-area {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .roxo {
+    padding: 100px 0;
+  }
+
+  .virtual h2 {
+    font-size: 1.6em;
+  }
+  .virtual h3 {
+    width: 90%;
+    font-size: 1.4;
+  }
+  .virtual .video {
+    width: 80%;
+    height: 350px;
+  }
+
+  .professor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .professor h4, .professor p {
+    text-align: center;
+  }
+
+  .desenvolvimento h2 {
+    width: 90%;
+  }
+
+  .desenvolvimento-paragrafo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .paragrafo2 h3, p {
+    text-align: center;
+  }
+
+  .alunos h2 {
+    width: 90%;
+  }
+  .alunos .video {
+    width: 100%;
+    height: 300px;
+  }
+
+  .aspas-pq {
+    left: 250px;
+  }
+
+  .aluno-area, .atendimento-area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .atendimento-icones {
+    display: none;
+  }
+
+  .atendimento-area {
+    gap: 50px;
+  }
+
+  .atendimento-item {
+    width: 100%;
+  }
+  .atendimento-item h3, .atendimento-item p {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 95%;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .escolaDev .video {
+    width: 80%;
+    height: 250px;
+  }
+
+  .conteudo2 {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .preco {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .contador h2 {
+    font-size: 2em;
+  }
+  .contador p {
+    font-size: 0.6em;
+  }
+
+  .brindes-area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .brindes-itens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+  .brindes-itens h3, .brindes-itens p {
+    width: 100%;
+  }
+
+  .banner-bg {
+    height: auto;
+  }
+
+  .banner-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bonus-area {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .planejamento .title {
+    width: 90%;
+  }
+
+  .planejamento-item {
+    width: 90%;
+  }
+
+  .roxo h2 {
+    width: 90%;
+  }
+
+  .especialista h3 {
+    width: 90%;
+  }
+
+  .aspas-g, .aspas-pq {
+    display: none;
+  }
+
+  .footer p {
+    font-size: 0.9em;
+  }
 }/*# sourceMappingURL=style.css.map */

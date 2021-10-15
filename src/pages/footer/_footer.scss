@@ -26,6 +26,10 @@
         padding: 10px;
         margin: 0 10px;
         border-radius: 50%;
-        border: solid 3px #fff;
+        border: solid 2px #fff;
+        cursor: pointer;
+        & img {
+            width: 30px;
+        }
     }
 }

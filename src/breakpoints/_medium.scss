@@ -1,0 +1,102 @@
+@media (max-width: 720px) {
+    .conteudo2 {
+        & h3 {
+            text-align: center;
+        }
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .banner-text {
+        width: 90%;
+    }
+
+    .planejamento-area {
+        margin: 30px 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .roxo {
+        padding: 100px 0;
+    }
+
+    .virtual {
+        & h2 {
+            font-size: 1.6em;
+        }
+        & h3 {
+            width: 90%;
+            font-size: 1.4;
+        }
+        & .video {
+            width: 80%;
+            height: 350px;
+        }
+    }
+
+    .professor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        & h4, p {
+            text-align: center;
+        }
+    }
+
+    .desenvolvimento {
+        h2 {
+            width: 90%;
+        }
+    }
+    .desenvolvimento-paragrafo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .paragrafo2 h3, p {
+        text-align: center;
+    }
+
+    .alunos {
+        & h2{
+          width: 90%;
+        }
+        & .video {
+            width: 100%;
+            height: 300px;
+        }
+        
+    }
+
+    .aspas-pq {
+        left: 250px;
+    }
+
+    .aluno-area, .atendimento-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .atendimento-icones {
+        display: none;
+    }
+
+    .atendimento-area {
+        gap: 50px;
+        
+    }
+
+    .atendimento-item {
+        width: 100%;
+        & h3, p {
+            text-align: center;
+            width: 100%
+        }  
+    }
+
+}

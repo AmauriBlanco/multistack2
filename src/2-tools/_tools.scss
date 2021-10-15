@@ -1,25 +1,26 @@
 @mixin extra-large {
     @media (max-width: 1140px) {
-        @content;
+        
     }
 }
 
-@mixin extra-large {
+@mixin large {
     @media (max-width: 960px) {
         @content;
     }
 }
 
-@mixin extra-large {
+@mixin medium {
     @media (max-width: 720px) {
         @content;
     }
 }
 
-@mixin extra-large {
-    @media (max-width: 540px) {
-        @content;
+@mixin small {
+    @media(max-width: 540px){
+
     }
+
 }
 
 

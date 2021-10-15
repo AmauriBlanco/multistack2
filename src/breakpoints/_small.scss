@@ -1,0 +1,87 @@
+@media(max-width: 540px){
+    .container {
+        width: 95%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .escolaDev .video{
+        width: 80%;
+        height: 250px;
+    }
+
+    .conteudo2 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .preco {
+        width: 100%;
+        margin: 30px auto;
+    }
+    
+    .contador {
+        & h2 {
+            font-size: 2em;
+        }
+        & p {
+            font-size: 0.6em;
+        }
+    }
+    
+    .brindes-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brindes-itens  {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        text-align: center;
+        & h3, p {
+            width: 100%;
+        }
+    }
+
+    .banner-bg {
+        height: auto;
+    }
+
+    .banner-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bonus-area {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .planejamento .title {
+        width: 90%;
+    }
+
+    .planejamento-item {
+        width: 90%;
+    }
+
+    .roxo h2 {
+        width: 90%;
+    }
+
+    .especialista h3 {
+        width: 90%;
+    }
+
+    .aspas-g, .aspas-pq {
+        display: none;
+    }
+
+    .footer p {
+        font-size: 0.9em;
+    }
+}

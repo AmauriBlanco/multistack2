@@ -12,6 +12,10 @@
         height: 250px;
     }
 
+    .conteudo .subtitle {
+        text-align: center;
+    }
+
     .conteudo2 {
         width: 95%;
         margin: 0 auto;
@@ -73,15 +77,40 @@
         width: 90%;
     }
 
+    .virtual .video {
+        width: 90%;
+        height: 250px;
+    }
+
     .especialista h3 {
         width: 90%;
+    }
+
+    .garantia-incondicional img {
+        width: 90%;
+    }
+
+    .sanfona p, .panel p{
+        font-size: 0.8em;
+    }
+
+    .assine h3 {
+        text-align: center;
     }
 
     .aspas-g, .aspas-pq {
         display: none;
     }
 
+    .action-area {
+        margin: 30px 0;
+    }
+
     .footer p {
         font-size: 0.9em;
+    }
+
+    .media-icons span img {
+        width: 20px;
     }
 }
